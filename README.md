@@ -1,4 +1,4 @@
-# Student Registration System
+# 1. Student Registration System
 
 **ITST 302 – Client-Server Technologies | Week 4 Laboratory Activity**
 
@@ -6,7 +6,7 @@ A Laravel 12-based **Student Registration System** developed using Laravel, MySQ
 
 ---
 
-# 1. Project Introduction
+# 2. Project Introduction
 
 ## Project Overview
 
@@ -91,7 +91,7 @@ Understanding this process provides a foundation for developing larger enterpris
 
 ---
 
-# 2. Learning Objectives
+# 3. Learning Objectives
 
 After completing this laboratory activity, the following objectives were accomplished:
 
@@ -113,7 +113,7 @@ After completing this laboratory activity, the following objectives were accompl
 
 ---
 
-# 3. Laravel Request Lifecycle
+# 4. Laravel Request Lifecycle
 
 When a student submits the registration form, the request passes through several Laravel components before a response is returned.
 
@@ -271,7 +271,7 @@ The profile page then displays the student's stored information and uploaded pro
 
 ---
 
-# 4. Validation Rules and Their Purpose
+# 5. Validation Rules and Their Purpose
 
 Validation ensures that the information submitted by a student follows the requirements of the application.
 
@@ -334,7 +334,7 @@ This helps prevent users from consuming excessive server storage.
 
 ---
 
-# 5. Database Design
+# 6. Database Design
 
 ## Entity Relationship Diagram
 
@@ -448,7 +448,7 @@ Laravel migrations allow the database structure to be maintained together with t
 
 ---
 
-# 6. Student Registration Flowchart
+# 7. Student Registration Flowchart
 
 The complete registration process can be represented using the following flowchart:
 
@@ -522,7 +522,7 @@ The flowchart can also be recreated as a visual diagram using:
 
 ---
 
-# 7. Project Screenshots
+# 8. Project Screenshots
 
 |  # | Screenshot                          | Description                                               |
 | -: | ----------------------------------- | --------------------------------------------------------- |
@@ -557,7 +557,7 @@ The flowchart can also be recreated as a visual diagram using:
 
 ---
 
-# 8. Problems Encountered
+# 9. Problems Encountered
 
 ## Problem 1: Profile Picture Was Not Displaying
 
@@ -579,7 +579,7 @@ The issue occurred because the session and CSRF token were not being maintained 
 
 ---
 
-# 9. Solutions Implemented
+# 10. Solutions Implemented
 
 ## Solution 1: Create the Storage Link
 
@@ -625,7 +625,7 @@ The cookie jar preserved the session information and allowed the CSRF token to r
 
 ---
 
-# 10. Reflection
+# 11. Reflection
 
 Developing the Student Registration System gave me a better understanding of how important validation is when building a web application. At first, validation seemed like a simple process for checking whether required fields were empty. However, while developing the project, I realized that validation has a much larger role in maintaining data quality, preventing duplicate records, and protecting an application from inappropriate input.
 
@@ -645,7 +645,7 @@ Overall, this activity improved my understanding of Laravel development and serv
 
 ---
 
-# 11. References
+# 12. References
 
 Laravel. (n.d.). *Validation*. Laravel Documentation.
 https://laravel.com/docs/validation
@@ -730,3 +730,7 @@ student-registration-system/
 # Conclusion
 
 The Student Registration System demonstrates how Laravel can be used to create a structured, validated, and database-driven web application. By combining routing, controllers, validation, models, migrations, MySQL, file storage, and Blade views, the project demonstrates the fundamental workflow required for developing modern enterprise web applications.
+
+## LinkedIn Portfolio Activity
+
+https://www.linkedin.com/feed/update/urn:li:activity:7498789882006417409/
