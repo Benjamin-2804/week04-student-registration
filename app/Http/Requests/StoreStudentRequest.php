@@ -33,7 +33,7 @@ class StoreStudentRequest extends FormRequest
             'program' => ['required', 'string', 'max:100'],
             'year_level' => ['required', 'integer', 'between:1,4'],
             'address' => ['required', 'string', 'min:10', 'max:500'],
-            'profile_picture' => ['required', 'image', 'mimetypes:image/jpeg,image/jpg,image/png', 'max:2048'],
+            'profile_picture' => ['required', 'image', 'mimetypes:image/jpeg,image/jpg,image/png,image/webp', 'max:2048'],
         ];
     }
 }

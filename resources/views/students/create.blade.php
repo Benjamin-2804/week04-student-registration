@@ -46,7 +46,7 @@
                 </label>
                 <input type="text" id="student_id" name="student_id"
                        value="{{ old('student_id') }}"
-                       placeholder="e.g. 2024-00001"
+                       placeholder="e.g. 2026-0001"
                        class="w-full rounded-lg border px-3 py-2.5 text-sm text-gray-800 placeholder-gray-400
                               focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-transparent transition
                               @error('student_id') border-red-400 bg-red-50 @else border-gray-200 bg-gray-50 @enderror">
@@ -328,9 +328,9 @@
                           d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5m-13.5-9L12 3m0 0l4.5 4.5M12 3v13.5"/>
                 </svg>
                 <span class="text-sm text-gray-500">Click to choose a photo</span>
-                <span class="text-xs text-gray-400 mt-1">JPG, JPEG, PNG — max 2 MB</span>
+                <span class="text-xs text-gray-400 mt-1">JPG, JPEG, PNG, WebP — max 2 MB</span>
                 <input type="file" id="profile_picture" name="profile_picture"
-                       accept=".jpg,.jpeg,.png" class="hidden">
+                       accept=".jpg,.jpeg,.png,.webp" class="hidden">
             </label>
 
             {{-- Preview (JS-powered) --}}
