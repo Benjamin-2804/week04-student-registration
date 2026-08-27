@@ -6,22 +6,6 @@ A Laravel 12-based **Student Registration System** developed using Laravel, MySQ
 
 ---
 
-# Table of Contents
-
-1. [Project Introduction](#1-project-introduction)
-2. [Learning Objectives](#2-learning-objectives)
-3. [Laravel Request Lifecycle](#3-laravel-request-lifecycle)
-4. [Validation Rules and Their Purpose](#4-validation-rules-and-their-purpose)
-5. [Database Design](#5-database-design)
-6. [Student Registration Flowchart](#6-student-registration-flowchart)
-7. [Project Screenshots](#7-project-screenshots)
-8. [Problems Encountered](#8-problems-encountered)
-9. [Solutions Implemented](#9-solutions-implemented)
-10. [Reflection](#10-reflection)
-11. [References](#11-references)
-
----
-
 # 1. Project Introduction
 
 ## Project Overview
